@@ -1,27 +1,27 @@
 body {
-    background-color: #e8c98d;
-    min-height: 100vh;
+  background-color: #d1d8d0;
+  min-height: 100vh;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
 }
 
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #D49927;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #889A85;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .button:hover {
-    background-color: #D49927;
+  background-color: #889A85;
 }
 
 .header {
@@ -29,7 +29,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #F9B83A;
+  background-color: #d1d8d0;
   z-index: 1000;
 }
 
@@ -50,120 +50,126 @@ body {
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #F9B83A;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #d1d8d0;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #F9B83A;
+  background-color: #d1d8d0;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #F9B83A;
+  background-color: #d1d8d0;
 }
-.search-container {
-    display: flex;
-    margin-top: 20px;
-  }
-  
-  #search-input {
-    flex: 1;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
-    font-size: 16px;
-  }
-  .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #F9B83A;
-  }
-  .botaomais{
-    width: 100%;
-    max-width: 10;
-  }  
-  .coloraçao{
-    background-color: palegreen;
-  }
-  .novaReceita{
-    margin: auto;
-    padding-bottom: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .centralizar_texto{
-    text-align: center;
-    color: white;
-  }
 
-  footer {
-    margin-top: 30px;
+.search-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #d1d8d0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d1d8d0;
+}
+
+.botaomais {
+  width: 100%;
+  max-width: 10;
+}
+
+.coloraçao {
+  background-color: palegreen;
+}
+
+.novaReceita {
+  margin: auto;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centralizar_texto {
+  text-align: center;
+  color: white;
+}
+
+footer {
+  margin-top: 30px;
 }
 
 .footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .footer p {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .footer a {
-    color: #D49927;
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: #D49927;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .footer a:hover {
-    color: #F9B83A;
+  color: #F9B83A;
 }
 
 .caixa-receita {
@@ -205,3 +211,4 @@ body {
   text-align: center;
   font-size: 18px;
 }
+
