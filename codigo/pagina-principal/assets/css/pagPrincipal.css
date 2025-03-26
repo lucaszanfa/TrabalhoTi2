@@ -55,7 +55,7 @@ div.links a {
     padding: 10px 20px;
     margin: 10px;
     background-color: #889A85;
-    color: #000000;
+    color: #ffffff;
     border: none;
     border-radius: 20px;
     font-size: 16px;
@@ -102,7 +102,7 @@ div.links a:hover {
 }
 
 .caixa-receita {
-    border: 2px solid #d5741a;
+    border: 2px solid #889A85;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -135,7 +135,7 @@ div.links a:hover {
 .nome-receita {
     background-color: #889A85;
     padding: 5px;  
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 18px;
 }
@@ -152,7 +152,7 @@ div.links a:hover {
 }
 
 .container h1 {
-    background-color: #F9B83A;
+    background-color: #889A85;
     border-radius: 15px;
     text-align: center;
 }
@@ -171,7 +171,7 @@ div.links a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #F9B83A;
+    background-color: #889A85;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -189,7 +189,7 @@ div.links a:hover {
 }
 
 button {
-    background-color: #D5741A;
+    background-color: #889A85;
     padding: 5px 10px;
     font-size: 16px;
     color: white;
@@ -199,7 +199,7 @@ button {
 }
 
 button:hover {
-    background-color: #F9B83A;
+    background-color: #889A85;
 }
 
 .botaomais {
@@ -228,7 +228,7 @@ button:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #F9B83A;
+    background-color: #889A85;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -242,7 +242,7 @@ button:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: #F9B83A;
+    background-color: #a8b8a6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -250,13 +250,13 @@ button:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #F9B83A;
+    background-color: #889A85;
 }
 
 footer {
     margin-top: 50px;
-    background-color: #333;
-    color: #fff;
+    background-color: #A4ABA3;
+    color: #000000;
     text-align: center;
     padding: 20px 0;
     position: relative;
@@ -275,13 +275,13 @@ footer {
 }
 
 .footer a {
-    color: #D49927;
+    color: #6e7c6b;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer a:hover {
-    color: #F9B83A;
+    color: #a8b8a6;
 }
 
 @media  (max-width: 1370px) {

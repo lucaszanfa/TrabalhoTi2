@@ -163,18 +163,18 @@ footer {
 }
 
 .footer a {
-  color: #D49927;
+  color: #889A85;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer a:hover {
-  color: #F9B83A;
+  color: #889A85;
 }
 
 .caixa-receita {
   margin: 10px 0 30px 0;
-  border: 2px solid #d5741a;
+  border: 2px solid #889A85;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -205,7 +205,7 @@ footer {
 }
 
 .nome-receita {
-  background-color: #d5741a;
+  background-color: #889A85;
   padding: 5px;  
   color: white;
   text-align: center;
