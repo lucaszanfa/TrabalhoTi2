@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #A4ABA3;
+    background-color: #d1d8d0;
 }
 
 .main-content {
@@ -54,8 +54,8 @@ div.links a {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
-    background-color: #D49927;
-    color: #fff;
+    background-color: #889A85;
+    color: #000000;
     border: none;
     border-radius: 20px;
     font-size: 16px;
@@ -133,9 +133,9 @@ div.links a:hover {
 }
 
 .nome-receita {
-    background-color: #d5741a;
+    background-color: #889A85;
     padding: 5px;  
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 18px;
 }
@@ -169,7 +169,7 @@ div.links a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #F9B83A;
+    background-color: #889A85;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
