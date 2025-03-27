@@ -252,12 +252,12 @@ input.dificuldade {
   width: fit-content;
   margin: 50px auto;
   padding: 10px 15px;
-  background-color: orange;
+  background-color: #889A85;
   color: white;
   position: relative;
   text-align: center;
   border-radius: 18px;
-  box-shadow: 0 0 0 2px #d5741a;
+  box-shadow: 0 0 0 2px #889A85;
 }
 
 
