@@ -6,7 +6,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #E8C98D;
+    background-color: #d1d8d0;
     box-sizing: border-box;
     height: 100%;
 }
@@ -16,7 +16,7 @@ html {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #F9B83A;
+    background-color: #A4ABA3;
     z-index: 1000;
 }
 
@@ -25,8 +25,8 @@ html {
 }
 
 .img-logo img {
-    width: 100%;
-    max-width: 200px; 
+    width: 80%;
+    max-width: 150px; 
     height: auto; 
     display: block; 
     margin: 0 auto; 
@@ -43,9 +43,9 @@ html {
     font-weight: bold;
     margin: 20px auto 50px auto;
     padding: 15px 20px;
-    background-color: orange;
+    background-color: #889A85 ;
     color: white;
-    border-color: #d5741a;
+    border-color: #000000;
     border-radius: 20px;
     width: max-content;
 }
@@ -151,13 +151,13 @@ footer {
 }
 
 .footer a {
-    color: #D49927;
+    color: #A4ABA3;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer a:hover {
-    color: #F9B83A;
+    color: #879185;
 }
 
 @media (max-width: 780px) {
