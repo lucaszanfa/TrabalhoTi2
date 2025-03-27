@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background-color: #E8C98D;
+    background-color: #d1d8d0;
 }
 
 .form-group input {
@@ -32,8 +32,8 @@ body {
 }
 
 .btn-info {
-    background-color: #F9B83A;
-    border: 1px solid #d5741a;
+    background-color: #889A85;
+    border: 1px solid #000000;
     border-radius: 10px;
     color: #fff;
     margin-top: 18px;
@@ -44,7 +44,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #F9B83A;
+    background-color: #000000;
     z-index: 1000;
 }
 
