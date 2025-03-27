@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background-color: #e8c98d;
+  background-color: #d1d8d0;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
   display: inline-block;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #D49927;
+  background-color: #889A85;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -26,7 +26,7 @@ body {
 }
 
 .button:hover {
-  background-color: #D49927;
+  background-color: #889A85;
 }
 
 .header {
@@ -34,7 +34,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #F9B83A;
+  background-color: #A4ABA3;
   z-index: 1000;
 }
 
@@ -62,7 +62,7 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #F9B83A;
+  background-color: #889A85;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -76,7 +76,7 @@ body {
 }
 
 .dropdown-content a:hover {
-  background-color: #F9B83A;
+  background-color: #a8b8a6;
 }
 
 .dropdown:hover .dropdown-content {
@@ -84,7 +84,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #F9B83A;
+  background-color: #889A85;
 }
 .search-container {
   display: flex;
@@ -114,7 +114,7 @@ button {
 }
 
 button:hover {
-  background-color: #F9B83A;
+  background-color: #889A85;
 }
 .botaomais{
   width: 100%;
@@ -125,8 +125,8 @@ button:hover {
 }  
 
 .botaovernovasreceitas {
-  background-color: orange; 
-  border: 2px solid #d5741a;
+  background-color: #889A85; 
+  border: 2px solid #889A85;
     color: #fff; 
     text-decoration: none; 
     display: inline-block; 
@@ -183,7 +183,7 @@ input.dificuldade {
 
   .botaomais button {
   margin-left: 5px; 
-  background-color: #F9B83A; 
+  background-color: #889A85; 
   color: white; 
   border: none; 
   cursor: pointer; 
@@ -194,7 +194,7 @@ input.dificuldade {
 }
 
  .coloraçao{
-  background-color: #28a745; 
+  background-color: palegreen; 
       color: white; 
       padding: 10px 20px; 
       border: none; 
